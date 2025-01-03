@@ -24,7 +24,7 @@ const menus: MenuProps[] = [
 export default function SideBar() {
   return (
     <div className="flex flex-col h-screen justify-between p-10 bg-black rounded-r-lg">
-      <div className="flex gap-10 flex-col">
+      <div className="flex gap-8 flex-col">
         <Image
           className="mb-2"
           src="/logo.svg"

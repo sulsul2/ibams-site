@@ -1,7 +1,7 @@
 "use client";
 export default function Page() {
   return (
-    <div className="absolute top-0 pt-20 w-full h-screen">
+    <div className="absolute top-0 pt-20 left-0 w-full h-screen">
       <div className="bg-[url('/building.svg')] w-full h-full bg-cover bg-center"></div>
       <div className="absolute w-[440px] h-[225px] bottom-1 left-4 bg-[url('/weather.svg')] bg-contain bg-no-repeat pt-16 pl-8">
         <h1 className="text-[56px] font-medium text-white">20°</h1>

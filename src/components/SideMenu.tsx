@@ -15,7 +15,7 @@ export default function SideMenu({ menu, url, icon }: MenuProps) {
   return (
     <Link
       className={clsx(
-        "w-40 flex gap-4 text-xl items-center",
+        "w-40 flex gap-4 text-lg items-center",
         pathname === url ? "text-white" : "text-slate-600"
       )}
       href={url}

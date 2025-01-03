@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${notoSans.variable} antialiased`}>
         <div className="flex">
           <SideBar />
-          <div className="w-full relative">
+          <div className="w-full relative px-10 pb-4">
             <Title />
             {children}
           </div>
