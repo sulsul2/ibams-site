@@ -7,7 +7,7 @@ export default function NotFound() {
       <p className="text-lg mb-4">Could not find the requested resource.</p>
       <Link
         href="/"
-        className="bg-black px-4 py-1 rounded-lg text-white text-sm"
+        className="bg-black px-4 py-3 rounded-lg text-white text-sm"
       >
         Return Home
       </Link>

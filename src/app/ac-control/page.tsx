@@ -20,10 +20,10 @@ export default function page() {
             className="border border-slate-600 rounded-lg p-1"
           />
         </div>
-        <button className="py-1 px-4 rounded-lg text-white text-sm bg-black">
+        <button className="px-4 rounded-lg text-white text-sm bg-black">
           Query Data
         </button>
-        <button className="py-1 px-4 rounded-lg text-white text-sm bg-green-600">
+        <button className="px-4 rounded-lg text-white text-sm bg-green-600">
           Export Excel
         </button>
       </div>
