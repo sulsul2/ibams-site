@@ -15,6 +15,9 @@ export default function Title() {
     case "/ac-control":
       title = "Automatic Climate Control";
       break;
+    case "/parking":
+      title = "Parking Management";
+      break;
     default:
       break;
   }

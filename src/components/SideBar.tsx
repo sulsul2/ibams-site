@@ -23,7 +23,7 @@ const menus: MenuProps[] = [
 
 export default function SideBar() {
   return (
-    <div className="flex flex-col h-screen justify-between p-10 bg-black rounded-r-lg">
+    <div className="fixed w-60 flex flex-col h-screen justify-between p-10 bg-black rounded-r-lg">
       <div className="flex gap-8 flex-col">
         <Image
           className="mb-2"
@@ -33,7 +33,12 @@ export default function SideBar() {
           height={80}
         />
         {menus.map((menu) => (
-          <SideMenu menu={menu.menu} url={menu.url} icon={menu.icon} />
+          <SideMenu
+            key={menu.url}
+            menu={menu.menu}
+            url={menu.url}
+            icon={menu.icon}
+          />
         ))}
       </div>
       <div className="flex items-center flex-col">
