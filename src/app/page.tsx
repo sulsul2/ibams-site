@@ -1,4 +1,3 @@
-"use client";
 export default function Page() {
   return (
     <div className="absolute top-0 pt-20 left-0 w-full h-screen">

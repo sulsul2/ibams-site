@@ -21,6 +21,9 @@ export default function Title() {
     case "/lighting":
       title = "Lighting Efficiency";
       break;
+    case "/video":
+      title = "Video CCTV";
+      break;
     default:
       break;
   }

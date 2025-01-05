@@ -17,8 +17,8 @@ const menus: MenuProps[] = [
   { menu: "AC Control", url: "/ac-control", icon: <FaThermometerHalf /> },
   { menu: "Lighting", url: "/lighting", icon: <FaLightbulb /> },
   { menu: "Parking", url: "/parking", icon: <FaCar /> },
-  { menu: "Water", url: "/water", icon: <FaWater /> },
   { menu: "Video", url: "/video", icon: <FaVideo /> },
+  { menu: "Water", url: "/water", icon: <FaWater /> },
 ];
 
 export default function SideBar() {
