@@ -18,6 +18,9 @@ export default function Title() {
     case "/parking":
       title = "Parking Management";
       break;
+    case "/lighting":
+      title = "Lighting Efficiency";
+      break;
     default:
       break;
   }
