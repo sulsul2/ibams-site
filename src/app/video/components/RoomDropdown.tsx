@@ -9,7 +9,7 @@ interface RoomDropdownProps {
   isActive: boolean;
   selectedRoom: string | null | undefined;
   onSelect: (category: string) => void;
-  onSelectRoom: (room: string) => void;
+  onSelectRoom: (room: string | null) => void;
 }
 
 export function RoomDropdown({
@@ -45,7 +45,11 @@ export function RoomDropdown({
       >
         {rooms.map((room, index) => (
           <li
-            onClick={() => onSelectRoom(`${category} ${room}`)}
+            onClick={() =>
+              selectedRoom == `${category} ${room}`
+                ? onSelectRoom(null)
+                : onSelectRoom(`${category} ${room}`)
+            }
             key={index}
             className={clsx(
               "px-4 py-2 hover:bg-gray-100 text-sm cursor-pointer",
