@@ -69,7 +69,7 @@ export function Card({
         <p className="text-xs text-center text-slate-400">{title}</p>
         <p className="font-bold text-center">{value}</p>
       </div>
-      <div className="bg-orange-400 border-2 border-white rounded-full h-4 w-4"></div>
+      <div className="bg-orange-400 hover:border-2 rounded-full h-4 w-4 hover:cursor-pointer hover:border-white"></div>
       <div className="border-l-2 border-dotted border-slate-300 h-20"></div>
     </div>
   );
