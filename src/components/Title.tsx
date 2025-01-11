@@ -23,6 +23,14 @@ export default function Title() {
       break;
     case "/video":
       title = "Video CCTV";
+    case "/water":
+      title = "Water Management";
+      break;
+    case "/fire":
+      title = "Fire Safety";
+      break;
+    case "/elevaor":
+      title = "Elevator Systems";
       break;
     default:
       break;

@@ -6,11 +6,13 @@ import {
   FaCar,
   FaWater,
   FaVideo,
+  FaFire,
 } from "react-icons/fa";
 
 import Image from "next/image";
 import { IoIosLogOut, IoIosSettings } from "react-icons/io";
 import { MdSpaceDashboard } from "react-icons/md";
+import { FaElevator } from "react-icons/fa6";
 
 const menus: MenuProps[] = [
   { menu: "Dashboard", url: "/", icon: <MdSpaceDashboard /> },
@@ -19,6 +21,8 @@ const menus: MenuProps[] = [
   { menu: "Parking", url: "/parking", icon: <FaCar /> },
   { menu: "Video", url: "/video", icon: <FaVideo /> },
   { menu: "Water", url: "/water", icon: <FaWater /> },
+  { menu: "Fire Safety", url: "/fire", icon: <FaFire /> },
+  { menu: "Elevator", url: "/elevator", icon: <FaElevator /> },
 ];
 
 export default function SideBar() {
